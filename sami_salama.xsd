@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  elementFormDefault="qualified">
+
+  <xs:element name="konfigurace_Paran">
+    
+  </xs:element>
+
+  <xs:complexType name="profil">
+  <xs:sequence>
+    <xs:element name="ucet">
+           <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nazev_uctu" type="xs:string"/>
+              <xs:element name="email" type="xs:string"/>
+              <xs:element name="stav" type="akt_neakt"/>
+              <xs:element name="beta_verze" type="zap_vyp"/>
+            </xs:sequence>
+          </xs:complexType>
+   </xs:element>
+   <xs:element name="rozhrani">
+      <xs:complexType>
+            <xs:sequence>
+              <xs:element name="jazyk" type="xs:string" default="Cestina"/>
+              <xs:element name="domovska_obrazovka" type="xs:string" default="Obchod"/>
+              <xs:element name="vhled" type="xs:string" default="Dark"/>
+              <xs:element name="po_spusteni_windows" type="ano_ne"/>
+              <xs:element name="maximalizovat" type="ano_ne"/>
+              <xs:element name="zalozky">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="zObchod" type="zap_vyp"/>
+                      <xs:attribute name="zHry" type="zap_vyp"/>
+                      <xs:attribute name="zKomunita" type="zap_vyp"/>
+                      <xs:attribute name="zNastaveni" type="zap_vyp"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="komunita">
+     <xs:complexType>
+            <xs:sequence>
+              <xs:element name="prezdivka" type="xs:string"/>
+              <xs:element name="auto_prihlaseni" type="ano_ne"/>
+              <xs:element name="cas_v_chatu" type="ano_ne"/>
+              <xs:element name="upozorneni_zvuky">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="pritel_ve_hre">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="upozorneni" type="ano_ne"/>
+                            <xs:attribute name="zvuk" type="ano_ne"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="pritel_online">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="upozorneni" type="ano_ne"/>
+                            <xs:attribute name="zvuk" type="ano_ne"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="oznameni_skupiny">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="upozorneni" type="ano_ne"/>
+                            <xs:attribute name="zvuk" type="ano_ne"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="nova_zprava">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="upozorneni" type="ano_ne"/>
+                            <xs:attribute name="zvuk" type="ano_ne"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+   </xs:element>
+   <xs:element name="aplikace_ve_hre">
+     <xs:complexType>
+            <xs:sequence>
+              <xs:element name="klavesova_zkratka" type="xs:string"/>
+              <xs:element name="screenshot" type="xs:string"/>
+              <xs:element name="screenshot_konf">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="umisteni_screenshotu" type="xs:string"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ukazatel_fps">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="zobrazit_fps" type="ano_ne"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+   </xs:element>
+   <xs:element name="hlas">
+     <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nazev_mikrofonu" type="xs:string"/>
+              <xs:element name="hlasitost_mikrofonu" type="procenta"/>
+              <xs:element name="hlasitost_prijmu" type="procenta"/>
+              <xs:element name="zesilit_mikrofon" type="ano_ne"/>
+              <xs:element name="hlasova_konverzace">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="automaticky" type="ano_ne"/>
+                      <xs:attribute name="po_stisknuti_tlacitka" type="ano_ne"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+   </xs:element>
+   <xs:element name="hudebni_prehravac">
+     <xs:complexType>
+            <xs:sequence>
+              <xs:element name="umisteni">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="umisteni_hudby" type="xs:string"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="automaticky_prohledat" type="ano_ne"/>
+              <xs:element name="hlasitost_hudby" type="procenta"/>
+              <xs:element name="pozastavit_hudbu">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="pri_spusteni_aplikace" type="ano_ne"/>
+                      <xs:attribute name="pri_hlasove_konverzaci" type="ano_ne"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="upozorneni_o_nove_skladbe" type="ano_ne"/>
+            </xs:sequence>
+          </xs:complexType>
+   </xs:element>
+   <xs:element name="stream">
+     <xs:complexType>
+            <xs:sequence>
+              <xs:element name="stav_prenosu" type="akt_neakt"/>
+              <xs:element name="soukromi" type="soukromi"/>
+              <xs:element name="rozliseni_videa" type="rozliseni"/>
+              <xs:element name="maximalni_rychlost_prenosu" type="xs:string"/>
+              <xs:element name="optimalizace" type="optimalizace"/>
+              <xs:element name="konverzace_divaku">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="zobrazit_konverzaci_divaku" type="ano_ne"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="nahravat_zvuk_z_mikrofonu" type="ano_ne"/>
+              <xs:element name="zobrazit_statistiky" type="ano_ne"/>
+            </xs:sequence>
+          </xs:complexType>
+   </xs:element>
+   <xs:element name="stahovani">
+     <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cil">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="umisteni_her" type="xs:string"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="oblast_stahovani" type="xs:string"/>
+              <xs:element name="stahovani_behem_hrani" type="ano_ne"/>
+              <xs:element name="stahovani_behem_streamu" type="ano_ne"/>
+              <xs:element name="zobrazit_rychlost" type="ano_ne"/>
+            </xs:sequence>
+          </xs:complexType>
+   </xs:element>
+  </xs:sequence>
+  </xs:complexType> 
+
+  <xs:simpleType name="zap_vyp">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Zapnuto"/>
+      <xs:enumeration value="Vypnuto"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="akt_neakt">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Aktivni"/>
+      <xs:enumeration value="Neaktivni"/>
+    </xs:restriction>
+  </xs:simpleType>  
+
+  <xs:simpleType name="ano_ne">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ano"/>
+      <xs:enumeration value="Ne"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="procenta">
+    <xs:restriction base="xs:integer">
+        <xs:minInclusive value="0"/>
+        <xs:maxInclusive value="100"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="soukromi">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Verejne"/>
+      <xs:enumeration value="Pouze pratele"/>
+      <xs:enumeration value="Jen ja"/>
+    </xs:restriction>
+  </xs:simpleType> 
+
+  <xs:simpleType name="rozliseni">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="640x360"/>
+      <xs:enumeration value="854x480"/>
+      <xs:enumeration value="1280x720"/>
+      <xs:enumeration value="1920x1080"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="optimalizace">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Pro nejlepsi vykon"/>
+      <xs:enumeration value="Pro nejlepsi kvalitu"/>
+    </xs:restriction>
+  </xs:simpleType> 
+
+  <xs:element name="stav">
+    <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Aktivni"/>
+      <xs:enumeration value="Neaktivni"/>
+    </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="jazyk">
+    <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Cestina"/>
+      <xs:enumeration value="Slovenstina"/>
+      <xs:enumeration value="Anglictina"/>
+      <xs:enumeration value="Rustina"/>
+    </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+    <xs:element name="domovska_obrazovka">
+    <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Obchod"/>
+      <xs:enumeration value="Komunita"/>
+      <xs:enumeration value="Hry"/>
+    </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+      <xs:element name="vzhled">
+    <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Dark"/>
+      <xs:enumeration value="Light"/>
+    </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+    <xs:element name="oblast_stahovani">
+    <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ceska republika"/>
+      <xs:enumeration value="Slovensko"/>
+      <xs:enumeration value="Nemecko"/>
+      <xs:enumeration value="Britanie"/>
+      <xs:enumeration value="Rusko"/>
+      <xs:enumeration value="USA"/>
+    </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+
+</xs:schema>

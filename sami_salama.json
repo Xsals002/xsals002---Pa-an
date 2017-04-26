@@ -1,0 +1,430 @@
+
+    {
+    	
+    	"Profil":
+    	{
+    		"Nazev uctu": "xsals002",
+    		"Email": "xsals@gmail.com",
+    		"Stav": "Aktivni",
+    		"Beta verze": "Vypnuto",
+    		"Rozhrani":
+    		{
+    			"Jazyk": "Cestina",
+    			"Domovska obrazovka": "Obchod",
+    			"Vhled": "Dark",
+    			"Spustit zaroven s OS": "Ano",
+    			"Maximalizovat okno": "Ano",
+    			"Zobrazit zalozky":
+    			{
+    				"Obchod": "Zapnuto",
+    				"Hry": "Zapnuto",
+    				"Komunita": "Zapnuto",
+    				"Nastaveni": "Zapnuto"
+    			}
+    		},
+    		"Komunita":
+    		{
+    			"Prezdivka": "CzuRules",
+    			"Automaticke prihlaseni": "Ano",
+    			"Zobrazit cas v chatu": "Ne"
+    		},
+    		"Aplikace ve hre":
+    		{
+    			"Klavesova zkratka": "Shift+Tab",
+    			"Screenshot": "F12",
+    			"Umisteni screenshotu na disku":
+    			{
+    				"Cesta": "D:\\Hry\\Screenshoty"
+    			}
+    		},
+    		"Hlas":
+    		{
+    			"Nazev mikrofonu": "CreativeFatality",
+    			"Hlasitost mikrofonu": "100%",
+    			"Hlasitost prijmu": "90%",
+    			"Zesilit mikrofon": "Ne",
+    			"Spusteni hlasove konverzace":
+    			{
+    				"Automaticky": "Ano",
+    				"Po stisknuti tlacitka": "Ne"
+    			}
+    		},
+    		"Hudebni prehravac":
+    		{
+    			"Umisteni":
+    			{
+    				"Cesta": "D:\\Music"
+    			},
+    			"Automaticky hledat na disku": "Ne",
+    			"Hlasitost hudby": "100%",
+    			"Pozastavit hudbu":
+    			{
+    				"Pri spusteni aplikace": "Ne",
+    				"Pri hlasove konverzaci": "Ano"
+    			},
+    			"Upozornit na novou skladbu": "Ano"
+    		},
+    		"Stream":
+    		{
+    			"Stav prenosu": "Neaktivni",
+    			"Soukromi": "Pouze pratele",
+    			"Rozliseni videa": "1280x720",
+    			"Maximalni prenosova rychlost": "2500 kbit/s",
+    			"Optimalizace": "Pro nejlepsi kvalitu",
+    			"Nahrat zvuk z mikrofonu": "Ne",
+    			"Zobrazit statistiky": "Ne"
+    		},
+    		"Stahovani":
+    		{
+    			"Umisteni her na disku":
+    			{
+    				"Cesta": "D:\\Hry"
+    			},
+    			"Oblast stahovani": "Ceska republika",
+    			"Stahovat behem hrani": "Ano",
+    			"Stahovat behem streamu": "Ne",
+    			"Rychlost stahovani": "Ano"
+    		}
+    	},
+    	"Profil":
+    	{
+    		"Nazev uctu": "perinka",
+    		"Email": "t.horak@gmail.com",
+    		"Stav": "Aktivni",
+    		"Beta verze": "Vypnuto",
+    		"Rozhrani":
+    		{
+    			"Jazyk": "Cestina",
+    			"Domovska obrazovka": "Hry",
+    			"Vhled": "Dark",
+    			"Spustit zaroven s OS": "Ano",
+    			"Maximalizovat okno": "Ne",
+    			"Zobrazit zalozky":
+    			{
+    				"Obchod": "Vypnuto",
+    				"Hry": "Zapnuto",
+    				"Komunita": "Zapnuto",
+    				"Nastaveni": "Vypnuto"
+    			}
+    		},
+    		"Komunita":
+    		{
+    			"Prezdivka": "Perinka",
+    			"Automaticke prihlaseni": "Ano",
+    			"Zobrazit cas v chatu": "Ano"
+    		},
+    		"Aplikace ve hre":
+    		{
+    			"Klavesova zkratka": "Ctrl+Shift+Tab",
+    			"Screenshot": "F11",
+    			"Umisteni screenshotu na disku":
+    			{
+    				"Cesta": "D:\\Gamesy\\Obrazky_z_her"
+    			}
+    		},
+    		"Hlas":
+    		{
+    			"Nazev mikrofonu": "HP",
+    			"Hlasitost mikrofonu": "98%",
+    			"Hlasitost prijmu": "68%",
+    			"Zesilit mikrofon": "Ano",
+    			"Spusteni hlasove konverzace":
+    			{
+    				"Automaticky": "Ne",
+    				"Po stisknuti tlacitka": "Ano"
+    			}
+    		},
+    		"Hudebni prehravac":
+    		{
+    			"Umisteni":
+    			{
+    				"Cesta": "D:\\Hudba"
+    			},
+    			"Automaticky hledat na disku": "Ne",
+    			"Hlasitost hudby": "50%",
+    			"Pozastavit hudbu":
+    			{
+    				"Pri spusteni aplikace": "Ne",
+    				"Pri hlasove konverzaci": "Ano"
+    			},
+    			"Upozornit na novou skladbu": "Ne"
+    		},
+    		"Stream":
+    		{
+    			"Stav prenosu": "Neaktivni",
+    			"Soukromi": "Verejne",
+    			"Rozliseni videa": "854x480",
+    			"Maximalni prenosova rychlost": "3500 kbit/s",
+    			"Optimalizace": "Pro nejlepsi vykon",
+    			"Nahrat zvuk z mikrofonu": "Ano",
+    			"Zobrazit statistiky": "Ano"
+    		},
+    		"Stahovani":
+    		{
+    			"Umisteni her na disku":
+    			{
+    				"Cesta": "D:\\Gamesy"
+    			},
+    			"Oblast stahovani": "Ceska republika",
+    			"Stahovat behem hrani": "Ne",
+    			"Stahovat behem streamu": "Ne",
+    			"Rychlost stahovani": "Ano"
+    		}
+    	},
+    	"Profil":
+    	{
+    		"Nazev uctu": "pavlov900",
+    		"Email": "andrej.pavlov@gmail.com",
+    		"Stav": "Aktivni",
+    		"Beta verze": "Zapnuto",
+    		"Rozhrani":
+    		{
+    			"Jazyk": "Rustina",
+    			"Domovska obrazovka": "Obchod",
+    			"Vhled": "Light",
+    			"Spustit zaroven s OS": "Ne",
+    			"Maximalizovat okno": "Ano",
+    			"Zobrazit zalozky":
+    			{
+    				"Obchod": "Zapnuto",
+    				"Hry": "Zapnuto",
+    				"Komunita": "Vypnuto",
+    				"Nastaveni": "Zapnuto"
+    			}
+    		},
+    		"Komunita":
+    		{
+    			"Prezdivka": "MaroznoeRU",
+    			"Automaticke prihlaseni": "Ne",
+    			"Zobrazit cas v chatu": "Ano"
+    		},
+    		"Aplikace ve hre":
+    		{
+    			"Klavesova zkratka": "Shift+F2",
+    			"Screenshot": "F5",
+    			"Umisteni screenshotu na disku":
+    			{
+    				"Cesta": "C:\\Users\\Pavel\\Igry"
+    			}
+    		},
+    		"Hlas":
+    		{
+    			"Nazev mikrofonu": "Razer",
+    			"Hlasitost mikrofonu": "100%",
+    			"Hlasitost prijmu": "100%",
+    			"Zesilit mikrofon": "Ano",
+    			"Spusteni hlasove konverzace":
+    			{
+    				"Automaticky": "Ne",
+    				"Po stisknuti tlacitka": "Ano"
+    			}
+    		},
+    		"Hudebni prehravac":
+    		{
+    			"Umisteni":
+    			{
+    				"Cesta": "C:\\Users\\Pavel\\Muzika"
+    			},
+    			"Automaticky hledat na disku": "Ano",
+    			"Hlasitost hudby": "100%",
+    			"Pozastavit hudbu":
+    			{
+    				"Pri spusteni aplikace": "Ano",
+    				"Pri hlasove konverzaci": "Ano"
+    			},
+    			"Upozornit na novou skladbu": "Ne"
+    		},
+    		"Stream":
+    		{
+    			"Stav prenosu": "Aktivni",
+    			"Soukromi": "Pouze pratele",
+    			"Rozliseni videa": "1920x1080",
+    			"Maximalni prenosova rychlost": "3000 kbit/s",
+    			"Optimalizace": "Pro nejlepsi kvalitu",
+    			"Nahrat zvuk z mikrofonu": "Ano",
+    			"Zobrazit statistiky": "Ano"
+    		},
+    		"Stahovani":
+    		{
+    			"Umisteni her na disku":
+    			{
+    				"Cesta": "C:\\Users\\Pavel\\Igry"
+    			},
+    			"Oblast stahovani": "Rusko",
+    			"Stahovat behem hrani": "Ne",
+    			"Stahovat behem streamu": "Ne",
+    			"Rychlost stahovani": "Ne"
+    		}
+    	},
+    	"Profil":
+    	{
+    		"Nazev uctu": "cichlu",
+    		"Email": "l.cichy@seznam.cz",
+    		"Stav": "Neaktivni",
+    		"Beta verze": "Vypnuto",
+    		"Rozhrani":
+    		{
+    			"Jazyk": "Cestina",
+    			"Domovska obrazovka": "Obchod",
+    			"Vhled": "Dark",
+    			"Spustit zaroven s OS": "Ne",
+    			"Maximalizovat okno": "Ano",
+    			"Zobrazit zalozky":
+    			{
+    				"Obchod": "Vypnuto",
+    				"Hry": "Zapnuto",
+    				"Komunita": "Vypnuto",
+    				"Nastaveni": "Vypnuto"
+    			}
+    		},
+    		"Komunita":
+    		{
+    			"Prezdivka": "CicheKridlo",
+    			"Automaticke prihlaseni": "Ne",
+    			"Zobrazit cas v chatu": "Ne"
+    		},
+    		"Aplikace ve hre":
+    		{
+    			"Klavesova zkratka": "Shift+Tab",
+    			"Screenshot": "Home",
+    			"Umisteni screenshotu na disku":
+    			{
+    				"Cesta": "D:\\Obrazky"
+    			}
+    		},
+    		"Hlas":
+    		{
+    			"Nazev mikrofonu": "Nenalezeno",
+    			"Hlasitost mikrofonu": "0%",
+    			"Hlasitost prijmu": "0%",
+    			"Zesilit mikrofon": "Ne",
+    			"Spusteni hlasove konverzace":
+    			{
+    				"Automaticky": "Ano",
+    				"Po stisknuti tlacitka": "Ne"
+    			}
+    		},
+    		"Hudebni prehravac":
+    		{
+    			"Umisteni":
+    			{
+    				"Cesta": "D:\\Hudba"
+    			},
+    			"Automaticky hledat na disku": "Ne",
+    			"Hlasitost hudby": "0%",
+    			"Pozastavit hudbu":
+    			{
+    				"Pri spusteni aplikace": "Ano",
+    				"Pri hlasove konverzaci": "Ano"
+    			},
+    			"Upozornit na novou skladbu": "Ne"
+    		},
+    		"Stream":
+    		{
+    			"Stav prenosu": "Neaktivni",
+    			"Soukromi": "Pouze pratele",
+    			"Rozliseni videa": "1280x720",
+    			"Maximalni prenosova rychlost": "2000 kbit/s",
+    			"Optimalizace": "Pro nejlepsi vykon",
+    			"Nahrat zvuk z mikrofonu": "Ne",
+    			"Zobrazit statistiky": "Ne"
+    		},
+    		"Stahovani":
+    		{
+    			"Umisteni her na disku":
+    			{
+    				"Cesta": "D:\\Software\\Hry"
+    			},
+    			"Oblast stahovani": "Ceska republika",
+    			"Stahovat behem hrani": "Ne",
+    			"Stahovat behem streamu": "Ne",
+    			"Rychlost stahovani": "Ne"
+    		}
+    	},
+    	"Profil":
+    	{
+    		"Nazev uctu": "zdenko10",
+    		"Email": "l.zdenko@gmail.com",
+    		"Stav": "Aktivni",
+    		"Beta verze": "Zapnuto",
+    		"Rozhrani":
+    		{
+    			"Jazyk": "Slovenstina",
+    			"Domovska obrazovka": "Komunita",
+    			"Vhled": "Light",
+    			"Spustit zaroven s OS": "Ano",
+    			"Maximalizovat okno": "Ano",
+    			"Zobrazit zalozky":
+    			{
+    				"Obchod": "Zapnuto",
+    				"Hry": "Zapnuto",
+    				"Komunita": "Zapnuto",
+    				"Nastaveni": "Zapnuto"
+    			}
+    		},
+    		"Komunita":
+    		{
+    			"Prezdivka": "Doggo",
+    			"Automaticke prihlaseni": "Ano",
+    			"Zobrazit cas v chatu": "Ano"
+    		},
+    		"Aplikace ve hre":
+    		{
+    			"Klavesova zkratka": "F1",
+    			"Screenshot": "F12",
+    			"Umisteni screenshotu na disku":
+    			{
+    				"Cesta": "D:\\Pictures"
+    			}
+    		},
+    		"Hlas":
+    		{
+    			"Nazev mikrofonu": "A4Tech",
+    			"Hlasitost mikrofonu": "100%",
+    			"Hlasitost prijmu": "100%",
+    			"Zesilit mikrofon": "Ano",
+    			"Spusteni hlasove konverzace":
+    			{
+    				"Automaticky": "Ano",
+    				"Po stisknuti tlacitka": "Ne"
+    			}
+    		},
+    		"Hudebni prehravac":
+    		{
+    			"Umisteni":
+    			{
+    				"Cesta": "D:\\Music"
+    			},
+    			"Automaticky hledat na disku": "Ano",
+    			"Hlasitost hudby": "100%",
+    			"Pozastavit hudbu":
+    			{
+    				"Pri spusteni aplikace": "Ano",
+    				"Pri hlasove konverzaci": "Ano"
+    			},
+    			"Upozornit na novou skladbu": "Ano"
+    		},
+    		"Stream":
+    		{
+    			"Stav prenosu": "Aktivni",
+    			"Soukromi": "Verejne",
+    			"Rozliseni videa": "1920x1080",
+    			"Maximalni prenosova rychlost": "3500 kbit/s",
+    			"Optimalizace": "Pro nejlepsi kvalitu",
+    			"Nahrat zvuk z mikrofonu": "Ano",
+    			"Zobrazit statistiky": "Ano"
+    		},
+    		"Stahovani":
+    		{
+    			"Umisteni her na disku":
+    			{
+    				"Cesta": "D:\\Games"
+    			},
+    			"Oblast stahovani": "Slovensko",
+    			"Stahovat behem hrani": "Ano",
+    			"Stahovat behem streamu": "Ano",
+    			"Rychlost stahovani": "Ano"
+    		}
+    	} 
+    }
+    

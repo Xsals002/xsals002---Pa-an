@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konfigurace_Paran xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="sami_salama.xsd">
+    	<!-- 1. uzivatel -->
+    <ucet>
+                <nazev_uctu>xsals002</nazev_uctu>
+                <email>xsals@gmail.com</email>
+		<stav>Aktivni</stav>
+		<beta_verze>Vypnuto</beta_verze>
+	<rozhrani>
+		<jazyk>Cestina</jazyk>
+		<domovska_obrazovka>Obchod</domovska_obrazovka>
+		<vhled>Dark</vhled>
+		<po_spusteni_windows>Ano</po_spusteni_windows>
+		<maximalizovat>Ano</maximalizovat>
+		<zalozky zObchod="Zapnuto" zHry="Zapnuto" zKomunita="Zapnuto" zNastaveni="Zapnuto"/>
+	</rozhrani>
+	<komunita>
+		<prezdivka>CzuRules</prezdivka>
+		<auto_prihlaseni>Ano</auto_prihlaseni>
+		<cas_v_chatu>Ne</cas_v_chatu>
+		<upozorneni_zvuky>
+			<pritel_ve_hre upozorneni="Ano" zvuk="Ne"/>
+			<pritel_online upozorneni="Ne" zvuk="Ne"/>
+			<oznameni_skupiny upozorneni="Ano" zvuk="Ne"/>
+			<nova_zprava upozorneni="Ano" zvuk="Ano"/>
+		</upozorneni_zvuky>
+	</komunita>
+	<aplikace_ve_hre>
+		<klavesova_zkratka>Shift+Tab</klavesova_zkratka>
+		<screenshot>F12</screenshot>
+		<screenshot_konf umisteni_screenshotu="D:\\Hry\\Screenshoty"/>
+		<ukazatel_fps zobrazit_fps="Ano">Vpravo nahore</ukazatel_fps>
+	</aplikace_ve_hre>
+	<hlas>
+		<nazev_mikrofonu>CreativeFatality</nazev_mikrofonu>
+		<hlasitost_mikrofonu>100</hlasitost_mikrofonu>
+		<hlasitost_prijmu>90</hlasitost_prijmu>
+		<zesilit_mikrofon>Ne</zesilit_mikrofon>
+		<hlasova_konverzace automaticky="Ano" po_stisknuti_tlacitka="Ne"/>
+	</hlas>
+	<hudebni_prehravac>
+		<umisteni umisteni_hudby="D:\\Music"/>
+		<automaticky_prohledat>Ne</automaticky_prohledat>
+		<hlasitost_hudby>100</hlasitost_hudby>
+		<pozastavit_hudbu pri_spusteni_aplikace="Ne" pri_hlasove_konverzaci="Ano"/>
+		<upozorneni_o_nove_skladbe>Ano</upozorneni_o_nove_skladbe>
+	</hudebni_prehravac>
+	<stream>
+		<stav_prenosu>Neaktivni</stav_prenosu>
+		<soukromi>Pouze pratele</soukromi>
+		<rozliseni_videa>1280x720</rozliseni_videa>
+		<maximalni_rychlost_prenosu>2500 kbit/s</maximalni_rychlost_prenosu>
+		<optimalizace>Pro nejlepsi kvalitu</optimalizace>
+		<konverzace_divaku zobrazit_konverzaci_divaku="Ano">Vlevo nahore</konverzace_divaku>
+		<nahravat_zvuk_z_mikrofonu>Ne</nahravat_zvuk_z_mikrofonu>
+		<zobrazit_statistiky>Ne</zobrazit_statistiky>
+	</stream>
+	<stahovani>
+		<cil umisteni_her="D:\\Hry"/>
+		<oblast_stahovani>Ceska republika</oblast_stahovani>
+		<stahovani_behem_hrani>Ano</stahovani_behem_hrani>
+		<stahovani_behem_streamu>Ne</stahovani_behem_streamu>
+		<zobrazit_rychlost>Ano</zobrazit_rychlost>
+	</stahovani>
+    </ucet>
+	<!-- 2. uzivatel -->
+    <ucet>
+        <nazev_uctu>perinka</nazev_uctu>
+		<email>t.horak@gmail.com</email>
+		<stav>Aktivni</stav>
+		<beta_verze>Vypnuto</beta_verze>
+	<rozhrani>
+		<jazyk>Cestina</jazyk>
+		<domovska_obrazovka>Hry</domovska_obrazovka>
+		<vhled>Dark</vhled>
+		<po_spusteni_windows>Ano</po_spusteni_windows>
+		<maximalizovat>Ne</maximalizovat>
+		<zalozky zObchod="Vypnuto" zHry="Zapnuto" zKomunita="Zapnuto" zNastaveni="Vypnuto"/>
+	</rozhrani>
+	<komunita>
+		<prezdivka>Perinka</prezdivka>
+		<auto_prihlaseni>Ano</auto_prihlaseni>
+		<cas_v_chatu>Ano</cas_v_chatu>
+		<upozorneni_zvuky>
+			<pritel_ve_hre upozorneni="Ano" zvuk="Ano"/>
+			<pritel_online upozorneni="Ne" zvuk="Ne"/>
+			<oznameni_skupiny upozorneni="Ne" zvuk="Ne"/>
+			<nova_zprava upozorneni="Ano" zvuk="Ano"/>
+		</upozorneni_zvuky>
+	</komunita>
+	<aplikace_ve_hre>
+		<klavesova_zkratka>Ctrl+Shift+Tab</klavesova_zkratka>
+		<screenshot>F11</screenshot>
+		<screenshot_konf umisteni_screenshotu="D:\\Gamesy\\Obrazky_z_her"/>
+		<ukazatel_fps zobrazit_fps="Ne">Vypnuto</ukazatel_fps>
+	</aplikace_ve_hre>
+	<hlas>
+		<nazev_mikrofonu>HP</nazev_mikrofonu>
+		<hlasitost_mikrofonu>98</hlasitost_mikrofonu>
+		<hlasitost_prijmu>68</hlasitost_prijmu>
+		<zesilit_mikrofon>Ano</zesilit_mikrofon>
+		<hlasova_konverzace automaticky="Ne" po_stisknuti_tlacitka="Ano"/>
+	</hlas>
+	<hudebni_prehravac>
+		<umisteni umisteni_hudby="D:\\Hudba"/>
+		<automaticky_prohledat>Ne</automaticky_prohledat>
+		<hlasitost_hudby>50</hlasitost_hudby>
+		<pozastavit_hudbu pri_spusteni_aplikace="Ne" pri_hlasove_konverzaci="Ano"/>
+		<upozorneni_o_nove_skladbe>Ne</upozorneni_o_nove_skladbe>
+	</hudebni_prehravac>
+	<stream>
+		<stav_prenosu>Neaktivni</stav_prenosu>
+		<soukromi>Verejne</soukromi>
+		<rozliseni_videa>854x480</rozliseni_videa>
+		<maximalni_rychlost_prenosu>3500 kbit/s</maximalni_rychlost_prenosu>
+		<optimalizace>Pro nejlepsi vykon</optimalizace>
+		<konverzace_divaku zobrazit_konverzaci_divaku="Ne">Vypnuto</konverzace_divaku>
+		<nahravat_zvuk_z_mikrofonu>Ano</nahravat_zvuk_z_mikrofonu>
+		<zobrazit_statistiky>Ano</zobrazit_statistiky>
+	</stream>
+	<stahovani>
+		<cil umisteni_her="D:\\Gamesy"/>
+		<oblast_stahovani>Ceska republika</oblast_stahovani>
+		<stahovani_behem_hrani>Ne</stahovani_behem_hrani>
+		<stahovani_behem_streamu>Ne</stahovani_behem_streamu>
+		<zobrazit_rychlost>Ano</zobrazit_rychlost>
+	</stahovani>
+    </ucet>
+
+	<!-- 3. uzivatel -->
+    <ucet>
+                <nazev_uctu>pavlov900</nazev_uctu>
+		<email>andrej.pavlov@gmail.com</email>
+		<stav>Aktivni</stav>
+		<beta_verze>Zapnuto</beta_verze>
+
+	<rozhrani>
+		<jazyk>Rustina</jazyk>
+		<domovska_obrazovka>Obchod</domovska_obrazovka>
+		<vhled>Light</vhled>
+		<po_spusteni_windows>Ne</po_spusteni_windows>
+		<maximalizovat>Ano</maximalizovat>
+		<zalozky zObchod="Zapnuto" zHry="Zapnuto" zKomunita="Vypnuto" zNastaveni="Zapnuto"/>
+	</rozhrani>
+	<komunita>
+		<prezdivka>MaroznoeRU</prezdivka>
+		<auto_prihlaseni>Ne</auto_prihlaseni>
+		<cas_v_chatu>Ano</cas_v_chatu>
+		<upozorneni_zvuky>
+			<pritel_ve_hre upozorneni="Ne" zvuk="Ne"/>
+			<pritel_online upozorneni="Ne" zvuk="Ne"/>
+			<oznameni_skupiny upozorneni="Ne" zvuk="Ne"/>
+			<nova_zprava upozorneni="Ano" zvuk="Ne"/>
+		</upozorneni_zvuky>
+	</komunita>
+	<aplikace_ve_hre>
+		<klavesova_zkratka>Shift+F2</klavesova_zkratka>
+		<screenshot>F5</screenshot>
+		<screenshot_konf umisteni_screenshotu="C:\\Users\\Pavel\\Igry"/>
+		<ukazatel_fps zobrazit_fps="Ano">Vpravo nahore</ukazatel_fps>
+	</aplikace_ve_hre>
+	<hlas>
+		<nazev_mikrofonu>Razer</nazev_mikrofonu>
+		<hlasitost_mikrofonu>100</hlasitost_mikrofonu>
+		<hlasitost_prijmu>100</hlasitost_prijmu>
+		<zesilit_mikrofon>Ano</zesilit_mikrofon>
+		<hlasova_konverzace automaticky="Ne" po_stisknuti_tlacitka="Ano"/>
+	</hlas>
+	<hudebni_prehravac>
+		<umisteni umisteni_hudby="C:\\Users\\Pavel\\Muzika"/>
+		<automaticky_prohledat>Ano</automaticky_prohledat>
+		<hlasitost_hudby>100</hlasitost_hudby>
+		<pozastavit_hudbu pri_spusteni_aplikace="Ano" pri_hlasove_konverzaci="Ano"/>
+		<upozorneni_o_nove_skladbe>Ne</upozorneni_o_nove_skladbe>
+	</hudebni_prehravac>
+	<stream>
+		<stav_prenosu>Aktivni</stav_prenosu>
+		<soukromi>Pouze pratele</soukromi>
+		<rozliseni_videa>1920x1080</rozliseni_videa>
+		<maximalni_rychlost_prenosu>3000 kbit/s</maximalni_rychlost_prenosu>
+		<optimalizace>Pro nejlepsi kvalitu</optimalizace>
+		<konverzace_divaku zobrazit_konverzaci_divaku="Ano">Vpravo nahore</konverzace_divaku>
+		<nahravat_zvuk_z_mikrofonu>Ano</nahravat_zvuk_z_mikrofonu>
+		<zobrazit_statistiky>Ano</zobrazit_statistiky>
+	</stream>
+	<stahovani>
+		<cil umisteni_her="C:\\Users\\Pavel\\Igry"/>
+		<oblast_stahovani>Rusko</oblast_stahovani>
+		<stahovani_behem_hrani>Ne</stahovani_behem_hrani>
+		<stahovani_behem_streamu>Ne</stahovani_behem_streamu>
+		<zobrazit_rychlost>Ne</zobrazit_rychlost>
+	</stahovani>
+    </ucet>
+
+	<!-- 4. uzivatel -->
+    <ucet>
+        <nazev_uctu>cichlu</nazev_uctu>
+		<email>l.cichy@seznam.cz</email>
+		<stav>Neaktivni</stav>
+		<beta_verze>Vypnuto</beta_verze>
+	<rozhrani>
+		<jazyk>Cestina</jazyk>
+		<domovska_obrazovka>Obchod</domovska_obrazovka>
+		<vhled>Dark</vhled>
+		<po_spusteni_windows>Ne</po_spusteni_windows>
+		<maximalizovat>Ano</maximalizovat>
+		<zalozky zObchod="Vypnuto" zHry="Zapnuto" zKomunita="Vypnuto" zNastaveni="Vypnuto"/>
+	</rozhrani>
+	<komunita>
+		<prezdivka>CicheKridlo</prezdivka>
+		<auto_prihlaseni>Ne</auto_prihlaseni>
+		<cas_v_chatu>Ne</cas_v_chatu>
+		<upozorneni_zvuky>
+			<pritel_ve_hre upozorneni="Ne" zvuk="Ne"/>
+			<pritel_online upozorneni="Ne" zvuk="Ne"/>
+			<oznameni_skupiny upozorneni="Ne" zvuk="Ne"/>
+			<nova_zprava upozorneni="Ano" zvuk="Ano"/>
+		</upozorneni_zvuky>
+	</komunita>
+	<aplikace_ve_hre>
+		<klavesova_zkratka>Shift+Tab</klavesova_zkratka>
+		<screenshot>Home</screenshot>
+		<screenshot_konf umisteni_screenshotu="D:\\Obrazky"/>
+		<ukazatel_fps zobrazit_fps="Ne">Vypnuto</ukazatel_fps>
+	</aplikace_ve_hre>
+	<hlas>
+		<nazev_mikrofonu>Nenalezeno</nazev_mikrofonu>
+		<hlasitost_mikrofonu>0</hlasitost_mikrofonu>
+		<hlasitost_prijmu>0</hlasitost_prijmu>
+		<zesilit_mikrofon>Ne</zesilit_mikrofon>
+		<hlasova_konverzace automaticky="Ano" po_stisknuti_tlacitka="Ne"/>
+	</hlas>
+	<hudebni_prehravac>
+		<umisteni umisteni_hudby="D:\\Hudba"/>
+		<automaticky_prohledat>Ne</automaticky_prohledat>
+		<hlasitost_hudby>0</hlasitost_hudby>
+		<pozastavit_hudbu pri_spusteni_aplikace="Ano" pri_hlasove_konverzaci="Ano"/>
+		<upozorneni_o_nove_skladbe>Ne</upozorneni_o_nove_skladbe>
+	</hudebni_prehravac>
+	<stream>
+		<stav_prenosu>Neaktivni</stav_prenosu>
+		<soukromi>Pouze pratele</soukromi>
+		<rozliseni_videa>1280x720</rozliseni_videa>
+		<maximalni_rychlost_prenosu>2000 kbit/s</maximalni_rychlost_prenosu>
+		<optimalizace>Pro nejlepsi vykon</optimalizace>
+		<konverzace_divaku zobrazit_konverzaci_divaku="Ne">Vypnuto</konverzace_divaku>
+		<nahravat_zvuk_z_mikrofonu>Ne</nahravat_zvuk_z_mikrofonu>
+		<zobrazit_statistiky>Ne</zobrazit_statistiky>
+	</stream>
+	<stahovani>
+		<cil umisteni_her="D:\\Software\\Hry"/>
+		<oblast_stahovani>Ceska republika</oblast_stahovani>
+		<stahovani_behem_hrani>Ne</stahovani_behem_hrani>
+		<stahovani_behem_streamu>Ne</stahovani_behem_streamu>
+		<zobrazit_rychlost>Ne</zobrazit_rychlost>
+	</stahovani>
+    </ucet>
+
+	<!-- 5. uzivatel -->
+    <ucet>
+        <nazev_uctu>zdenko10</nazev_uctu>
+		<email>l.zdenko@gmail.com</email>
+		<stav>Aktivni</stav>
+		<beta_verze>Zapnuto</beta_verze>
+	<rozhrani>
+		<jazyk>Slovenstina</jazyk>
+		<domovska_obrazovka>Komunita</domovska_obrazovka>
+		<vhled>Light</vhled>
+		<po_spusteni_windows>Ano</po_spusteni_windows>
+		<maximalizovat>Ano</maximalizovat>
+		<zalozky zObchod="Zapnuto" zHry="Zapnuto" zKomunita="Zapnuto" zNastaveni="Zapnuto"/>
+	</rozhrani>
+	<komunita>
+		<prezdivka>Doggo</prezdivka>
+		<auto_prihlaseni>Ano</auto_prihlaseni>
+		<cas_v_chatu>Ano</cas_v_chatu>
+		<upozorneni_zvuky>
+			<pritel_ve_hre upozorneni="Ano" zvuk="Ano"/>
+			<pritel_online upozorneni="Ano" zvuk="Ano"/>
+			<oznameni_skupiny upozorneni="Ano" zvuk="Ano"/>
+			<nova_zprava upozorneni="Ano" zvuk="Ano"/>
+		</upozorneni_zvuky>
+	</komunita>
+	<aplikace_ve_hre>
+		<klavesova_zkratka>F1</klavesova_zkratka>
+		<screenshot>F12</screenshot>
+		<screenshot_konf umisteni_screenshotu="D:\\Pictures"/>
+		<ukazatel_fps zobrazit_fps="Ano">Vpravo dole</ukazatel_fps>
+	</aplikace_ve_hre>
+	<hlas>
+		<nazev_mikrofonu>A4Tech</nazev_mikrofonu>
+		<hlasitost_mikrofonu>100</hlasitost_mikrofonu>
+		<hlasitost_prijmu>100</hlasitost_prijmu>
+		<zesilit_mikrofon>Ano</zesilit_mikrofon>
+		<hlasova_konverzace automaticky="Ano" po_stisknuti_tlacitka="Ne"/>
+	</hlas>
+	<hudebni_prehravac>
+		<umisteni umisteni_hudby="D:\\Music"/>
+		<automaticky_prohledat>Ano</automaticky_prohledat>
+		<hlasitost_hudby>100</hlasitost_hudby>
+		<pozastavit_hudbu pri_spusteni_aplikace="Ano" pri_hlasove_konverzaci="Ano"/>
+		<upozorneni_o_nove_skladbe>Ano</upozorneni_o_nove_skladbe>
+	</hudebni_prehravac>
+	<stream>
+		<stav_prenosu>Aktivni</stav_prenosu>
+		<soukromi>Verejne</soukromi>
+		<rozliseni_videa>1920x1080</rozliseni_videa>
+		<maximalni_rychlost_prenosu>3500 kbit/s</maximalni_rychlost_prenosu>
+		<optimalizace>Pro nejlepsi kvalitu</optimalizace>
+		<konverzace_divaku zobrazit_konverzaci_divaku="Ano">Vlevo dole</konverzace_divaku>
+		<nahravat_zvuk_z_mikrofonu>Ano</nahravat_zvuk_z_mikrofonu>
+		<zobrazit_statistiky>Ano</zobrazit_statistiky>
+	</stream>
+	<stahovani>
+		<cil umisteni_her="D:\\Games"/>
+		<oblast_stahovani>Slovensko</oblast_stahovani>
+		<stahovani_behem_hrani>Ano</stahovani_behem_hrani>
+		<stahovani_behem_streamu>Ano</stahovani_behem_streamu>
+		<zobrazit_rychlost>Ano</zobrazit_rychlost>
+	</stahovani>
+    </ucet>
+</konfigurace_Paran>
